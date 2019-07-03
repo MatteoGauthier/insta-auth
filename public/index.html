@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js'></script>
+
+</head>
+<body>
+    <a href="/auth/instagram">Login</a>
+
+    <div id="v-for-object" class="demo">
+            <div v-for="value in feed">
+                <img :src="value" alt="">
+              
+            </div>
+        </div>
+    <script src="logic.js"></script>
+</body>
+</html>
